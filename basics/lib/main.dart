@@ -1,10 +1,6 @@
-import 'package:basics/quiz_container.dart';
+import 'package:basics/quiz.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: QuizContainer(),
-    ),
-  ));
+  runApp(const Quiz());
 }
